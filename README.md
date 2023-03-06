@@ -7,8 +7,6 @@
 
 ## Introduction - Code Along
 
-UML diagram of inheritance hierarchy
-
 Fork and clone this lesson.  The code contains a `Person` class along with a driver class named `Main`.
 You will add two subclasses `Teacher` and `Student`.
 
@@ -205,7 +203,7 @@ There are a couple of rules when overriding methods:
 
 ## Student extends Person
 
-Create another new class named `Student` that extends `Person`.
+Create another new class named `Student` that extends `Person`.  
 
 `Student` inherits `name` and `age` from `Person`,
 and should define an additional field `favoriteSubject` and accessor/mutator methods.
@@ -448,7 +446,6 @@ There are a couple of rules when overriding methods:
 - Methods declared with the non-access modifiers static and final cannot be overridden.
 - The overriding method does not necessarily need to have the same access modifier as the parent class' method,
   but the overriding method must not have a more restrictive access modifier.
-
 
 ## Resources
 
